@@ -1,0 +1,9 @@
+pip install tensorflow numpy matplotlib opencv-python
+python project.py
+
+for delete the broken venv: rm -r .venv
+steps after that deletion
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install tensorflow numpy matplotlib opencv-python
